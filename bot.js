@@ -607,6 +607,6 @@ if (message.content.startsWith(prefix + 'queue')) {
 }
 })
 
-bot.login(config.token);
+bot.login(process.env.BOT_TOKEN);
 // This version of discord.js is V8, you may install it using npm install discord.js#indev-old
 // Don't mess with this file it will ruin your bot, to change stuff edit config.json
